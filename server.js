@@ -6,7 +6,6 @@ const server = net.createServer((socket) => {
     if (data == undefined || data == null) {
       return;
     }
-
     const dataArgs = data.toString().split(" ");
 
     if (dataArgs.length === 0) {
